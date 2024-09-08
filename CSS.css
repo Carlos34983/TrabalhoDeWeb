@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(1, 54, 134, 0.623);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.categoria{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.274);
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.barra{
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+.barra img{
+    height: 20px;
+    width: 20px;
+}
+.maquinas{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgba(0, 102, 161, 0.534);
+    padding: 10px;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+header img{
+    height: 100px;
+    width: 200px;
+}
+main{
+    flex: 3;
+    padding: 80px 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.informatica-loja {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+}
+.produto {
+    background-color: #00f5fd4b;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.produto h2{
+    color: rgb(0, 255, 0);
+}
+button {
+    background-color: rgb(30, 214, 30);
+    border-color: greenyellow;
+    color: white;
+    padding: 10px 20px;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 10px;
+}
+button:hover {
+    background-color: rgb(32, 99, 1);
+}
+footer {
+    background-color: rgba(0, 102, 161, 0.534);
+    color: #fff;
+    text-align: left;
+    padding: 50px;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+    font-size: 15px;
+}
