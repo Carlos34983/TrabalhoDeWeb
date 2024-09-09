@@ -103,6 +103,7 @@ footer p {
     margin: 0;
     font-size: 15px;
 }
+
 @media (max-width: 1200px) {
     .informatica-loja {
         gap: 15px;
@@ -111,58 +112,47 @@ footer p {
         width: 250px;
     }
 }
-
 @media (max-width: 992px) {
     main {
         padding: 60px 10px 20px;
         margin-top: 30px;
     }
-
     header img {
         height: 80px;
         width: auto;
     }
-
     footer {
         padding: 40px;
     }
 }
-
 @media (max-width: 768px) {
     header {
         padding: 20px;
     }
-
     header img {
         height: 60px;
         width: auto;
     }
-
     .produto {
         width: 100%;
     }
-
     button {
         font-size: 12px;
     }
 }
-
 @media (max-width: 480px) {
     main {
         padding: 40px 5px 10px;
         margin-top: 20px;
     }
-
     footer {
         padding: 20px;
         font-size: 14px;
     }
-
     .produto {
         width: 100%;
         padding: 10px;
     }
-
     button {
         font-size: 14px;
         padding: 8px 16px;
